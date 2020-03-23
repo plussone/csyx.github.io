@@ -1,0 +1,245 @@
+{
+	"groups": [
+		{
+			"keys": "checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,description_json,road_png,zhandian_png,water_png,white_png,sky_jpg,earth_jpg,guanbijian_png,beijingkuang_png,lanmukuang_png,tanchukuang_png,heliu_png,luxian1_png,luxian2_png,luxian3_png,luxian4_png,luxian5_png,map_png,wu_png,zhandian1_png,zhandian2_png,zhandian3_png,zhandian4_png,zhandian5_png",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/CheckBox/checkbox_select_disabled.png",
+			"type": "image",
+			"name": "checkbox_select_disabled_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_select_down.png",
+			"type": "image",
+			"name": "checkbox_select_down_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_select_up.png",
+			"type": "image",
+			"name": "checkbox_select_up_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_unselect.png",
+			"type": "image",
+			"name": "checkbox_unselect_png"
+		},
+		{
+			"url": "assets/ItemRenderer/selected.png",
+			"type": "image",
+			"name": "selected_png"
+		},
+		{
+			"url": "assets/Panel/border.png",
+			"type": "image",
+			"name": "border_png"
+		},
+		{
+			"url": "assets/Panel/header.png",
+			"type": "image",
+			"name": "header_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_disabled.png",
+			"type": "image",
+			"name": "radiobutton_select_disabled_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_down.png",
+			"type": "image",
+			"name": "radiobutton_select_down_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_up.png",
+			"type": "image",
+			"name": "radiobutton_select_up_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_unselect.png",
+			"type": "image",
+			"name": "radiobutton_unselect_png"
+		},
+		{
+			"url": "assets/ScrollBar/roundthumb.png",
+			"type": "image",
+			"name": "roundthumb_png"
+		},
+		{
+			"url": "assets/Slider/thumb.png",
+			"type": "image",
+			"name": "thumb_png"
+		},
+		{
+			"url": "assets/Slider/track.png",
+			"type": "image",
+			"name": "track_png"
+		},
+		{
+			"url": "assets/Slider/tracklight.png",
+			"type": "image",
+			"name": "tracklight_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/handle.png",
+			"type": "image",
+			"name": "handle_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/off.png",
+			"type": "image",
+			"name": "off_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/on.png",
+			"type": "image",
+			"name": "on_png"
+		},
+		{
+			"url": "assets/Button/button_down.png",
+			"type": "image",
+			"name": "button_down_png"
+		},
+		{
+			"url": "assets/Button/button_up.png",
+			"type": "image",
+			"name": "button_up_png"
+		},
+		{
+			"url": "assets/ProgressBar/thumb_pb.png",
+			"type": "image",
+			"name": "thumb_pb_png"
+		},
+		{
+			"url": "assets/ProgressBar/track_pb.png",
+			"type": "image",
+			"name": "track_pb_png"
+		},
+		{
+			"url": "assets/ScrollBar/track_sb.png",
+			"type": "image",
+			"name": "track_sb_png"
+		},
+		{
+			"url": "config/description.json",
+			"type": "json",
+			"name": "description_json"
+		},
+		{
+			"url": "assets/road.png",
+			"type": "image",
+			"name": "road_png"
+		},
+		{
+			"url": "assets/zhandian.png",
+			"type": "image",
+			"name": "zhandian_png"
+		},
+		{
+			"url": "assets/water.png",
+			"type": "image",
+			"name": "water_png"
+		},
+		{
+			"url": "assets/white.png",
+			"type": "image",
+			"name": "white_png"
+		},
+		{
+			"url": "assets/sky.jpg",
+			"type": "image",
+			"name": "sky_jpg"
+		},
+		{
+			"url": "assets/earth.jpg",
+			"type": "image",
+			"name": "earth_jpg"
+		},
+		{
+			"url": "assets/guanbijian.png",
+			"type": "image",
+			"name": "guanbijian_png"
+		},
+		{
+			"url": "assets/beijingkuang.png",
+			"type": "image",
+			"name": "beijingkuang_png"
+		},
+		{
+			"url": "assets/lanmukuang.png",
+			"type": "image",
+			"name": "lanmukuang_png"
+		},
+		{
+			"url": "assets/tanchukuang.png",
+			"type": "image",
+			"name": "tanchukuang_png"
+		},
+		{
+			"name": "heliu_png",
+			"type": "image",
+			"url": "resuser/heliu.png"
+		},
+		{
+			"name": "luxian1_png",
+			"type": "image",
+			"url": "resuser/luxian1.png"
+		},
+		{
+			"name": "luxian2_png",
+			"type": "image",
+			"url": "resuser/luxian2.png"
+		},
+		{
+			"name": "luxian3_png",
+			"type": "image",
+			"url": "resuser/luxian3.png"
+		},
+		{
+			"name": "luxian4_png",
+			"type": "image",
+			"url": "resuser/luxian4.png"
+		},
+		{
+			"name": "luxian5_png",
+			"type": "image",
+			"url": "resuser/luxian5.png"
+		},
+		{
+			"name": "map_png",
+			"type": "image",
+			"url": "resuser/map.png"
+		},
+		{
+			"name": "wu_png",
+			"type": "image",
+			"url": "resuser/wu.png"
+		},
+		{
+			"name": "zhandian1_png",
+			"type": "image",
+			"url": "resuser/zhandian1.png"
+		},
+		{
+			"name": "zhandian2_png",
+			"type": "image",
+			"url": "resuser/zhandian2.png"
+		},
+		{
+			"name": "zhandian3_png",
+			"type": "image",
+			"url": "resuser/zhandian3.png"
+		},
+		{
+			"name": "zhandian4_png",
+			"type": "image",
+			"url": "resuser/zhandian4.png"
+		},
+		{
+			"name": "zhandian5_png",
+			"type": "image",
+			"url": "resuser/zhandian5.png"
+		}
+	]
+}
