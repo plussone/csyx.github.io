@@ -1,7 +1,7 @@
 {
 	"groups": [
 		{
-			"keys": "checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,description_json,road_png,zhandian_png,water_png,white_png,sky_jpg,earth_jpg,guanbijian_png,beijingkuang_png,lanmukuang_png,tanchukuang_png,heliu_png,luxian1_png,luxian2_png,luxian3_png,luxian4_png,luxian5_png,map_png,wu_png,zhandian1_png,zhandian2_png,zhandian3_png,zhandian4_png,zhandian5_png",
+			"keys": "checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,description_json,road_png,zhandian_png,water_png,white_png,sky_jpg,earth_jpg,guanbijian_png,beijingkuang_png,lanmukuang_png,tanchukuang_png,heliu_png,luxian1_png,luxian2_png,luxian3_png,luxian4_png,luxian5_png,map_png,wu_png,zhandian1_png,zhandian2_png,zhandian3_png,zhandian4_png,zhandian5_png,xuanzhong_png",
 			"name": "preload"
 		}
 	],
@@ -240,6 +240,11 @@
 			"name": "zhandian5_png",
 			"type": "image",
 			"url": "resuser/zhandian5.png"
+		},
+		{
+			"name": "xuanzhong_png",
+			"type": "image",
+			"url": "resuser/xuanzhong.png"
 		}
 	]
 }
