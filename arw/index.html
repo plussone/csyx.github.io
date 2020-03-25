@@ -176,7 +176,7 @@
 
         var mtlLoader = new THREE.MTLLoader();
 
-        mtlLoader.setPath( 'obj/' );
+        mtlLoader.setPath( '' );
 
         mtlLoader.load( 'switcher.mtl', function( materials ) {
 
@@ -186,14 +186,14 @@
 
             objLoader.setMaterials( materials );
 
-            objLoader.setPath( 'obj/' );
+            objLoader.setPath( '' );
 
             objLoader.load( 'switcher.obj', function ( object ) {
 
                 obj=object;
                 scene.add( object );
                 object.position.set(0,0,0);
-                object.scale.set(0.001,0.001,0.001);
+                object.scale.set(1,1,1);
                 var axes=new THREE.AxisHelper(10);
                 scene.add(axes);
             }, onProgress, onError );
