@@ -18,7 +18,8 @@
 		alpha: true
 	});
 	renderer.setClearColor(new THREE.Color('lightgrey'), 0)
-	renderer.setSize( 640, 480 );
+	renderer.setSize( window.innerWidth, window.innerHeight );
+	//renderer.setSize( 640, 480 );
 	renderer.domElement.style.position = 'absolute'
 	renderer.domElement.style.top = '0px'
 	renderer.domElement.style.left = '0px'
@@ -56,9 +57,10 @@
 	})
 
 	arToolkitSource.init(function onReady(){
-        setTimeout(() => {
+		onResize()
+        /*setTimeout(() => {
             onResize()
-        }, 2000);
+        }, 2000);*/
 	})
 
 	// handle resize
@@ -82,6 +84,9 @@
 	var arToolkitContext = new THREEx.ArToolkitContext({
 		cameraParametersUrl: 'pattern-suzhouguidao.patt',
 		detectionMode: 'mono',
+		maxDetectionRate: 30,
+		canvasWidth: 80*3,
+		canvasHeight: 60*3,
 	})
 	// initialize it
 	arToolkitContext.init(function onCompleted(){
@@ -96,7 +101,7 @@
 		arToolkitContext.update( arToolkitSource.domElement )
 
 		// update scene.visible if the marker is seen
-		scene.visible = camera.visible
+		//scene.visible = camera.visible
 	})
 
 	////////////////////////////////////////////////////////////////////////////////
@@ -104,15 +109,29 @@
 	////////////////////////////////////////////////////////////////////////////////
 
 	// init controls for camera
+	var markerRoot = new THREE.Group
+	scene.add(markerRoot)
 	var markerControls = new THREEx.ArMarkerControls(arToolkitContext, camera, {
 		type : 'pattern',
 		patternUrl : 'patt.hiro',
 		// patternUrl : THREEx.ArToolkitContext.baseURL + '../data/data/patt.kanji',
 		// as we controls the camera, set changeMatrixMode: 'cameraTransformMatrix'
-		changeMatrixMode: 'cameraTransformMatrix'
+		//changeMatrixMode: 'cameraTransformMatrix'
 	})
 	// as we do changeMatrixMode: 'cameraTransformMatrix', start with invisible scene
-	scene.visible = false
+	//scene.visible = false
+
+	// build a smoothedControls
+	var smoothedRoot = new THREE.Group()
+	scene.add(smoothedRoot)
+	var smoothedControls = new THREEx.ArSmoothedControls(smoothedRoot, {
+		lerpPosition: 0.4,
+		lerpQuaternion: 0.3,
+		lerpScale: 1,
+	})
+	onRenderFcts.push(function(delta){
+		smoothedControls.update(markerRoot)
+	})
 
 	//////////////////////////////////////////////////////////////////////////////////
 	//		add an object in the scene
@@ -134,7 +153,9 @@
                 var axes=new THREE.AxisHelper(10);
                 scene.add(axes);
             }, onProgress, onError );
-        });*/
+		});*/
+	
+	var arWorldRoot = smoothedRoot
 	var geometry	= new THREE.CubeGeometry(1,1,1);
 	var material	= new THREE.MeshNormalMaterial({
 		transparent : true,
@@ -151,17 +172,20 @@
 	mesh.position.z	= 0.5
 	scene.add( mesh );
 
-	onRenderFcts.push(function(delta){
-		mesh.rotation.x += Math.PI*delta
+	onRenderFcts.push(function(){
+		mesh.rotation.x += 0.1
 	})
 
 	//////////////////////////////////////////////////////////////////////////////////
 	//		render the whole thing on the page
 	//////////////////////////////////////////////////////////////////////////////////
 
+	var stats = new Stats();
+	document.body.appendChild( stats.dom );
 	// render the scene
 	onRenderFcts.push(function(){
 		renderer.render( scene, camera );
+		stats.update();
 	})
 
 	// run the rendering loop
