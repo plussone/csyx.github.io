@@ -17,7 +17,8 @@
 		"new_map": "resource/eui_skins/new_map.exml",
 		"daoju": "resource/eui_skins/daoju.exml",
 		"chengjiu": "resource/eui_skins/chengjiu.exml",
-		"rengwu": "resource/eui_skins/rengwu.exml"
+		"rengwu": "resource/eui_skins/rengwu.exml",
+		"jingdian": "resource/eui_skins/jingdian.exml"
 	},
 	"autoGenerateExmlsList": true,
 	"exmls": [
@@ -36,6 +37,7 @@
 		"resource/eui_skins/VSliderSkin.exml",
 		"resource/skins/chengjiu.exml",
 		"resource/skins/daoju.exml",
+		"resource/skins/jingdian.exml",
 		"resource/skins/maps.exml",
 		"resource/skins/rengwu.exml"
 	],
