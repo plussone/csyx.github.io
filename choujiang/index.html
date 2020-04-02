@@ -106,17 +106,17 @@
           // 获取中奖信息
           var math = Math.random() * 100;
           var num = 0;//奖品ID
-          if(math==99)num=5;
-          else if(math>=95)num=4;
-          else if(math>=75)num=3;
-          else if(math>=55)num=2;
-          else if(math>=35)num=1;
-          else num=0;
+          if(math==99)num=6;
+          else if(math>=95)num=5;
+          else if(math>=75)num=4;
+          else if(math>=55)num=3;
+          else if(math>=35)num=2;
+          else num=1;
           callback && callback([num, --chances]);
         },
         gotBack: function (data) {
           alert('恭喜抽中' + data);
-          localStorage.choujiang = String(data);
+          localStorage.choujiang = data.toString();
           javascript:history.go(-1);
         }
       });
