@@ -116,7 +116,7 @@
         },
         gotBack: function (data) {
           alert('恭喜抽中' + data);
-          window.location.href="http://"+window.location.host+"/index.html?goods_id="+data;
+          localStorage.choujiang = data;
           javascript:history.go(-1);
         }
       });
