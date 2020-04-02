@@ -116,7 +116,7 @@
         },
         gotBack: function (data) {
           alert('恭喜抽中' + data);
-          localStorage.choujiang = data;
+          localStorage.choujiang = String(data);
           javascript:history.go(-1);
         }
       });
