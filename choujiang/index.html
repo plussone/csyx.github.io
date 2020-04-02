@@ -89,7 +89,7 @@
           // 获取奖品信息
           // callback && callback(['11元红包','2元红包','3元红包','4元红包','5元红包','6元红包']);
           callback && callback([{
-            text: '100积分'
+            text: '100金币'
           }, {
             text: '拆除卡'
           }, {
@@ -116,7 +116,7 @@
         },
         gotBack: function (data) {
           alert('恭喜抽中' + data);
-          localStorage.choujiang = data.toString();
+          localStorage.choujiang = data;
           javascript:history.go(-1);
         }
       });
