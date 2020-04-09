@@ -3,8 +3,11 @@
 <!-- three.js library -->
 <script src='three.min.js'></script>
 <script src="stats.min.js"></script>
+<!-- three.js load GLTF -->
+<script src='GLTFLoader.js'></script>
 <!-- ar.js -->
 <script src="ar.js"></script>
+<script src='ar-nft.js'></script>
 
 <body style='margin : 0px; overflow: hidden; font-family: Monospace;'>
 <script>
@@ -105,8 +108,9 @@
 	var markerRoot = new THREE.Group
 	scene.add(markerRoot)
 	var artoolkitMarker = new THREEx.ArMarkerControls(arToolkitContext, markerRoot, {
-		type : 'pattern',
-		patternUrl :'pattern-suzhouguidao.patt'
+		type : 'nft',
+        descriptorsUrl : 'jiantou',
+        changeMatrixMode: 'cameraTransformMatrix'
 		// patternUrl : THREEx.ArToolkitContext.baseURL + '../data/data/patt.kanji'
 	})
 
