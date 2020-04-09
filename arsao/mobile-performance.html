@@ -4,10 +4,10 @@
 <script src='three.min.js'></script>
 <script src="stats.min.js"></script>
 <!-- three.js load GLTF -->
-<script src='GLTFLoader.js'></script>
+<!-- ipt src='GLTFLoader.js'></script> -->
 <!-- ar.js -->
 <script src="ar.js"></script>
-<script src='ar-nft.js'></script>
+<!-- <script src='ar-nft.js'></script> -->
 
 <body style='margin : 0px; overflow: hidden; font-family: Monospace;'>
 <script>
@@ -109,7 +109,7 @@
 	scene.add(markerRoot)
 	var artoolkitMarker = new THREEx.ArMarkerControls(arToolkitContext, markerRoot, {
 		type : 'nft',
-        descriptorsUrl : 'jiantou',
+        descriptorsUrl : 'data/jiantou',
         changeMatrixMode: 'cameraTransformMatrix'
 		// patternUrl : THREEx.ArToolkitContext.baseURL + '../data/data/patt.kanji'
 	})
