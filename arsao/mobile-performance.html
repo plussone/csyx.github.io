@@ -4,9 +4,9 @@
 <script src='three.min.js'></script>
 <script src="stats.min.js"></script>
 <!-- three.js load GLTF -->
-<!-- ipt src='GLTFLoader.js'></script> -->
+<script src='GLTFLoader.js'></script>
 <!-- ar.js -->
-<!--<script src="ar.js"></script>-->
+<script src="ar.js"></script>
 <script src='ar-nft.js'></script>
 
 <body style='margin : 0px; overflow: hidden; font-family: Monospace;'>
@@ -105,15 +105,13 @@
 	//          Create a ArMarkerControls
 	////////////////////////////////////////////////////////////////////////////////
 
-	var markerRoot = new THREE.Group
-	scene.add(markerRoot)
-	var artoolkitMarker = new THREEx.ArMarkerControls(arToolkitContext, markerRoot, {
-		type : 'nft',
-        descriptorsUrl : 'data/jiantou',
-        changeMatrixMode: 'cameraTransformMatrix'
-		// patternUrl : THREEx.ArToolkitContext.baseURL + '../data/data/patt.kanji'
-	})
+	var markerControls = new THREEx.ArMarkerControls(arToolkitContext, camera, {
+            type : 'nft',
+            descriptorsUrl : 'data/jiantou',
+            changeMatrixMode: 'cameraTransformMatrix'
+        })
 
+    scene.visible = false
 	// build a smoothedControls
 	var smoothedRoot = new THREE.Group()
 	scene.add(smoothedRoot)
