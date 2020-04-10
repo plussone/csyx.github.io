@@ -8,6 +8,8 @@
 <!-- ar.js -->
 <script src='ar-nft.js'></script>
 
+<script>THREEx.ArToolkitContext.baseURL = '../'</script>
+
 <body style='position: absolute; top: 0; left: 0; width: 100%; height: 100%; margin : 0px; overflow: hidden;'>
     <style>
         .arjs-loader {
@@ -147,7 +149,7 @@
         // init controls for camera
         var markerControls = new THREEx.ArMarkerControls(arToolkitContext, camera, {
             type : 'nft',
-            descriptorsUrl : 'data/jiantou/pinball',
+            descriptorsUrl : 'data/dataNFT/pinball',
             changeMatrixMode: 'cameraTransformMatrix'
         })
 
@@ -163,7 +165,7 @@
         var threeGLTFLoader = new THREE.GLTFLoader();
         var model;
 
-        threeGLTFLoader.load("Flamingo.glb", function (gltf) {
+        threeGLTFLoader.load("./resources/Flamingo.glb", function (gltf) {
             model = gltf.scene.children[0];
             model.name = 'Flamingo';
 
