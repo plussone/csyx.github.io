@@ -114,7 +114,8 @@
 			var scene = new THREE.Scene();
 			var camera = new THREE.Camera();
 			camera.matrixAutoUpdate = false;
-			camera.projectionMatrix.elements.setViewOffset (this.getCameraMatrix());
+			/*change set->setViewOffset*/
+			camera.projectionMatrix.elements.setViewOffset(this.getCameraMatrix());
 
 			scene.add(camera);
 
