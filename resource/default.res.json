@@ -1,7 +1,7 @@
 {
 	"groups": [
 		{
-			"keys": "checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,description_json,road_png,zhandian_png,water_png,white_png,sky_jpg,earth_jpg,guanbijian_png,beijingkuang_png,lanmukuang_png,tanchukuang_png,heliu_png,luxian1_png,luxian2_png,luxian3_png,luxian4_png,luxian5_png,map_png,wu_png,zhandian1_png,zhandian2_png,zhandian3_png,zhandian4_png,zhandian5_png,xuanzhong_png,jingdian_png",
+			"keys": "checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,description_json,road_png,zhandian_png,water_png,white_png,sky_jpg,earth_jpg,guanbijian_png,beijingkuang_png,lanmukuang_png,tanchukuang_png,heliu_png,luxian1_png,luxian2_png,luxian3_png,luxian4_png,luxian5_png,map_png,wu_png,zhandian1_png,zhandian2_png,zhandian3_png,zhandian4_png,zhandian5_png,xuanzhong_png,jingdian_png,zw2_png,zw3_png,beijing_jpg,changpian_png,blue1_png,blue2_png,blue3_png,dark1_png,dark2_png,dark3_png,red1_png,red2_png,red3_png,yinyue_png,tishi_png,bgm1_mp3",
 			"name": "preload"
 		}
 	],
@@ -250,6 +250,86 @@
 			"name": "jingdian_png",
 			"type": "image",
 			"url": "resuser/jingdian.png"
+		},
+		{
+			"name": "zw2_png",
+			"type": "image",
+			"url": "assets/xiaoyouxi1/zw2.png"
+		},
+		{
+			"name": "zw3_png",
+			"type": "image",
+			"url": "assets/xiaoyouxi1/zw3.png"
+		},
+		{
+			"name": "beijing_jpg",
+			"type": "image",
+			"url": "assets/xiaoyouxi1/beijing.jpg"
+		},
+		{
+			"name": "changpian_png",
+			"type": "image",
+			"url": "assets/xiaoyouxi1/changpian.png"
+		},
+		{
+			"name": "blue1_png",
+			"type": "image",
+			"url": "assets/Button/button/blue1.png"
+		},
+		{
+			"name": "blue2_png",
+			"type": "image",
+			"url": "assets/Button/button/blue2.png"
+		},
+		{
+			"name": "blue3_png",
+			"type": "image",
+			"url": "assets/Button/button/blue3.png"
+		},
+		{
+			"name": "dark1_png",
+			"type": "image",
+			"url": "assets/Button/button/dark1.png"
+		},
+		{
+			"name": "dark2_png",
+			"type": "image",
+			"url": "assets/Button/button/dark2.png"
+		},
+		{
+			"name": "dark3_png",
+			"type": "image",
+			"url": "assets/Button/button/dark3.png"
+		},
+		{
+			"name": "red1_png",
+			"type": "image",
+			"url": "assets/Button/button/red1.png"
+		},
+		{
+			"name": "red2_png",
+			"type": "image",
+			"url": "assets/Button/button/red2.png"
+		},
+		{
+			"name": "red3_png",
+			"type": "image",
+			"url": "assets/Button/button/red3.png"
+		},
+		{
+			"name": "yinyue_png",
+			"type": "image",
+			"url": "assets/yinyue.png"
+		},
+		{
+			"name": "tishi_png",
+			"type": "image",
+			"url": "assets/tishi.png"
+		},
+		{
+			"name": "bgm1_mp3",
+			"type": "sound",
+			"url": "assets/sound/bgm1.mp3"
 		}
 	]
 }

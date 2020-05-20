@@ -18,7 +18,9 @@
 		"daoju": "resource/eui_skins/daoju.exml",
 		"chengjiu": "resource/eui_skins/chengjiu.exml",
 		"rengwu": "resource/eui_skins/rengwu.exml",
-		"jingdian": "resource/eui_skins/jingdian.exml"
+		"jingdian": "resource/eui_skins/jingdian.exml",
+		"xiaoyouxi1": "resource/eui_skins/xiaoyouxi1.exml",
+		"insert": "resource/eui_skins/insert.exml"
 	},
 	"autoGenerateExmlsList": true,
 	"exmls": [
@@ -26,6 +28,7 @@
 		"resource/eui_skins/CheckBoxSkin.exml",
 		"resource/eui_skins/HScrollBarSkin.exml",
 		"resource/eui_skins/HSliderSkin.exml",
+		"resource/eui_skins/insert.exml",
 		"resource/eui_skins/ItemRendererSkin.exml",
 		"resource/eui_skins/PanelSkin.exml",
 		"resource/eui_skins/ProgressBarSkin.exml",
@@ -37,9 +40,13 @@
 		"resource/eui_skins/VSliderSkin.exml",
 		"resource/skins/chengjiu.exml",
 		"resource/skins/daoju.exml",
+		"resource/skins/fenshu.exml",
+		"resource/skins/insert.exml",
 		"resource/skins/jingdian.exml",
 		"resource/skins/maps.exml",
-		"resource/skins/rengwu.exml"
+		"resource/skins/rengwu.exml",
+		"resource/skins/tishi.exml",
+		"resource/skins/xiaoyouxi1.exml"
 	],
 	"path": "resource/default.thm.json"
 }
