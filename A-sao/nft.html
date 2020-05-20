@@ -90,7 +90,9 @@
                 var markerRoot = arController.createThreeNFTMarker(markerId);
             });
             arController.addEventListener('getNFTMarker', function (ev) {
-                alert('ok');
+                localStorage.setItem("ARsao", "1");
+                alert('扫描成功，获得100金币。');
+                javascript:history.go(-1);
             });
             
             
