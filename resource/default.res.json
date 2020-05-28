@@ -1,8 +1,12 @@
 {
 	"groups": [
 		{
-			"keys": "checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,description_json,road_png,zhandian_png,water_png,white_png,sky_jpg,earth_jpg,guanbijian_png,beijingkuang_png,lanmukuang_png,tanchukuang_png,heliu_png,luxian1_png,luxian2_png,luxian3_png,luxian4_png,luxian5_png,map_png,wu_png,zhandian1_png,zhandian2_png,zhandian3_png,zhandian4_png,zhandian5_png,xuanzhong_png,jingdian_png,zw2_png,zw3_png,beijing_jpg,changpian_png,blue1_png,blue2_png,blue3_png,dark1_png,dark2_png,dark3_png,red1_png,red2_png,red3_png,yinyue_png,tishi_png,bgm1_mp3",
+			"keys": "checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,description_json,road_png,zhandian_png,water_png,white_png,sky_jpg,earth_jpg,guanbijian_png,beijingkuang_png,lanmukuang_png,tanchukuang_png,heliu_png,luxian1_png,luxian2_png,luxian3_png,luxian4_png,luxian5_png,map_png,wu_png,zhandian1_png,zhandian2_png,zhandian3_png,zhandian4_png,zhandian5_png,xuanzhong_png,jingdian_png,zw2_png,zw3_png,beijing_jpg,changpian_png,blue1_png,blue2_png,blue3_png,dark1_png,dark2_png,dark3_png,red1_png,red2_png,red3_png,yinyue_png,tishi_png,bgm1_mp3,chengjiubeijing_png,cck_png,cjk_png,gcgl2_png,gcgl3_png,jsk_png,sdk_png,yqwdr1_png,yqwdr2_png,yqwdr3_png,gcgl1_png,green-palm-tree-3256255_jpg,qizi_png,yhq1_png,yhq2_png,qipan_png",
 			"name": "preload"
+		},
+		{
+			"keys": "track_pb_png,thumb_pb_png",
+			"name": "Load"
 		}
 	],
 	"resources": [
@@ -177,159 +181,239 @@
 			"name": "tanchukuang_png"
 		},
 		{
-			"name": "heliu_png",
+			"url": "resuser/heliu.png",
 			"type": "image",
-			"url": "resuser/heliu.png"
+			"name": "heliu_png"
 		},
 		{
-			"name": "luxian1_png",
+			"url": "resuser/luxian1.png",
 			"type": "image",
-			"url": "resuser/luxian1.png"
+			"name": "luxian1_png"
 		},
 		{
-			"name": "luxian2_png",
+			"url": "resuser/luxian2.png",
 			"type": "image",
-			"url": "resuser/luxian2.png"
+			"name": "luxian2_png"
 		},
 		{
-			"name": "luxian3_png",
+			"url": "resuser/luxian3.png",
 			"type": "image",
-			"url": "resuser/luxian3.png"
+			"name": "luxian3_png"
 		},
 		{
-			"name": "luxian4_png",
+			"url": "resuser/luxian4.png",
 			"type": "image",
-			"url": "resuser/luxian4.png"
+			"name": "luxian4_png"
 		},
 		{
-			"name": "luxian5_png",
+			"url": "resuser/luxian5.png",
 			"type": "image",
-			"url": "resuser/luxian5.png"
+			"name": "luxian5_png"
 		},
 		{
-			"name": "map_png",
+			"url": "resuser/map.png",
 			"type": "image",
-			"url": "resuser/map.png"
+			"name": "map_png"
 		},
 		{
-			"name": "wu_png",
+			"url": "resuser/wu.png",
 			"type": "image",
-			"url": "resuser/wu.png"
+			"name": "wu_png"
 		},
 		{
-			"name": "zhandian1_png",
+			"url": "resuser/zhandian1.png",
 			"type": "image",
-			"url": "resuser/zhandian1.png"
+			"name": "zhandian1_png"
 		},
 		{
-			"name": "zhandian2_png",
+			"url": "resuser/zhandian2.png",
 			"type": "image",
-			"url": "resuser/zhandian2.png"
+			"name": "zhandian2_png"
 		},
 		{
-			"name": "zhandian3_png",
+			"url": "resuser/zhandian3.png",
 			"type": "image",
-			"url": "resuser/zhandian3.png"
+			"name": "zhandian3_png"
 		},
 		{
-			"name": "zhandian4_png",
+			"url": "resuser/zhandian4.png",
 			"type": "image",
-			"url": "resuser/zhandian4.png"
+			"name": "zhandian4_png"
 		},
 		{
-			"name": "zhandian5_png",
+			"url": "resuser/zhandian5.png",
 			"type": "image",
-			"url": "resuser/zhandian5.png"
+			"name": "zhandian5_png"
 		},
 		{
-			"name": "xuanzhong_png",
+			"url": "resuser/xuanzhong.png",
 			"type": "image",
-			"url": "resuser/xuanzhong.png"
+			"name": "xuanzhong_png"
 		},
 		{
-			"name": "jingdian_png",
+			"url": "resuser/jingdian.png",
 			"type": "image",
-			"url": "resuser/jingdian.png"
+			"name": "jingdian_png"
 		},
 		{
-			"name": "zw2_png",
+			"url": "assets/xiaoyouxi1/zw2.png",
 			"type": "image",
-			"url": "assets/xiaoyouxi1/zw2.png"
+			"name": "zw2_png"
 		},
 		{
-			"name": "zw3_png",
+			"url": "assets/xiaoyouxi1/zw3.png",
 			"type": "image",
-			"url": "assets/xiaoyouxi1/zw3.png"
+			"name": "zw3_png"
 		},
 		{
-			"name": "beijing_jpg",
+			"url": "assets/xiaoyouxi1/beijing.jpg",
 			"type": "image",
-			"url": "assets/xiaoyouxi1/beijing.jpg"
+			"name": "beijing_jpg"
 		},
 		{
-			"name": "changpian_png",
+			"url": "assets/xiaoyouxi1/changpian.png",
 			"type": "image",
-			"url": "assets/xiaoyouxi1/changpian.png"
+			"name": "changpian_png"
 		},
 		{
-			"name": "blue1_png",
+			"url": "assets/Button/button/blue1.png",
 			"type": "image",
-			"url": "assets/Button/button/blue1.png"
+			"name": "blue1_png"
 		},
 		{
-			"name": "blue2_png",
+			"url": "assets/Button/button/blue2.png",
 			"type": "image",
-			"url": "assets/Button/button/blue2.png"
+			"name": "blue2_png"
 		},
 		{
-			"name": "blue3_png",
+			"url": "assets/Button/button/blue3.png",
 			"type": "image",
-			"url": "assets/Button/button/blue3.png"
+			"name": "blue3_png"
 		},
 		{
-			"name": "dark1_png",
+			"url": "assets/Button/button/dark1.png",
 			"type": "image",
-			"url": "assets/Button/button/dark1.png"
+			"name": "dark1_png"
 		},
 		{
-			"name": "dark2_png",
+			"url": "assets/Button/button/dark2.png",
 			"type": "image",
-			"url": "assets/Button/button/dark2.png"
+			"name": "dark2_png"
 		},
 		{
-			"name": "dark3_png",
+			"url": "assets/Button/button/dark3.png",
 			"type": "image",
-			"url": "assets/Button/button/dark3.png"
+			"name": "dark3_png"
 		},
 		{
-			"name": "red1_png",
+			"url": "assets/Button/button/red1.png",
 			"type": "image",
-			"url": "assets/Button/button/red1.png"
+			"name": "red1_png"
 		},
 		{
-			"name": "red2_png",
+			"url": "assets/Button/button/red2.png",
 			"type": "image",
-			"url": "assets/Button/button/red2.png"
+			"name": "red2_png"
 		},
 		{
-			"name": "red3_png",
+			"url": "assets/Button/button/red3.png",
 			"type": "image",
-			"url": "assets/Button/button/red3.png"
+			"name": "red3_png"
 		},
 		{
-			"name": "yinyue_png",
+			"url": "assets/yinyue.png",
 			"type": "image",
-			"url": "assets/yinyue.png"
+			"name": "yinyue_png"
 		},
 		{
-			"name": "tishi_png",
+			"url": "assets/tishi.png",
 			"type": "image",
-			"url": "assets/tishi.png"
+			"name": "tishi_png"
 		},
 		{
-			"name": "bgm1_mp3",
+			"url": "assets/sound/bgm1.mp3",
 			"type": "sound",
-			"url": "assets/sound/bgm1.mp3"
+			"name": "bgm1_mp3"
+		},
+		{
+			"url": "assets/chengjiubeijing.png",
+			"type": "image",
+			"name": "chengjiubeijing_png"
+		},
+		{
+			"url": "assets/chengjiu/cck.png",
+			"type": "image",
+			"name": "cck_png"
+		},
+		{
+			"url": "assets/chengjiu/cjk.png",
+			"type": "image",
+			"name": "cjk_png"
+		},
+		{
+			"url": "assets/chengjiu/gcgl2.png",
+			"type": "image",
+			"name": "gcgl2_png"
+		},
+		{
+			"url": "assets/chengjiu/gcgl3.png",
+			"type": "image",
+			"name": "gcgl3_png"
+		},
+		{
+			"url": "assets/chengjiu/jsk.png",
+			"type": "image",
+			"name": "jsk_png"
+		},
+		{
+			"url": "assets/chengjiu/sdk.png",
+			"type": "image",
+			"name": "sdk_png"
+		},
+		{
+			"url": "assets/chengjiu/yqwdr1.png",
+			"type": "image",
+			"name": "yqwdr1_png"
+		},
+		{
+			"url": "assets/chengjiu/yqwdr2.png",
+			"type": "image",
+			"name": "yqwdr2_png"
+		},
+		{
+			"url": "assets/chengjiu/yqwdr3.png",
+			"type": "image",
+			"name": "yqwdr3_png"
+		},
+		{
+			"url": "assets/chengjiu/gcgl1.png",
+			"type": "image",
+			"name": "gcgl1_png"
+		},
+		{
+			"name": "green-palm-tree-3256255_jpg",
+			"type": "image",
+			"url": "assets/green-palm-tree-3256255.jpg"
+		},
+		{
+			"name": "qizi_png",
+			"type": "image",
+			"url": "assets/xiaoyouxi2/qizi.png"
+		},
+		{
+			"name": "yhq1_png",
+			"type": "image",
+			"url": "assets/chengjiu/yhq1.png"
+		},
+		{
+			"name": "yhq2_png",
+			"type": "image",
+			"url": "assets/chengjiu/yhq2.png"
+		},
+		{
+			"name": "qipan_png",
+			"type": "image",
+			"url": "assets/qipan.png"
 		}
 	]
 }
