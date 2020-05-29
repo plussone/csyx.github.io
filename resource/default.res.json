@@ -1,11 +1,11 @@
 {
 	"groups": [
 		{
-			"keys": "checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,description_json,road_png,zhandian_png,water_png,white_png,sky_jpg,earth_jpg,guanbijian_png,beijingkuang_png,lanmukuang_png,tanchukuang_png,heliu_png,luxian1_png,luxian2_png,luxian3_png,luxian4_png,luxian5_png,map_png,wu_png,zhandian1_png,zhandian2_png,zhandian3_png,zhandian4_png,zhandian5_png,xuanzhong_png,jingdian_png,zw2_png,zw3_png,beijing_jpg,changpian_png,blue1_png,blue2_png,blue3_png,dark1_png,dark2_png,dark3_png,red1_png,red2_png,red3_png,yinyue_png,tishi_png,bgm1_mp3,chengjiubeijing_png,cck_png,cjk_png,gcgl2_png,gcgl3_png,jsk_png,sdk_png,yqwdr1_png,yqwdr2_png,yqwdr3_png,gcgl1_png,green-palm-tree-3256255_jpg,qizi_png,yhq1_png,yhq2_png,qipan_png",
+			"keys": "checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,description_json,road_png,zhandian_png,water_png,white_png,sky_jpg,earth_jpg,guanbijian_png,beijingkuang_png,lanmukuang_png,tanchukuang_png,heliu_png,luxian1_png,luxian2_png,luxian3_png,luxian4_png,luxian5_png,map_png,wu_png,zhandian1_png,zhandian2_png,zhandian3_png,zhandian4_png,zhandian5_png,xuanzhong_png,jingdian_png,zw2_png,zw3_png,beijing_jpg,changpian_png,blue1_png,blue2_png,blue3_png,dark1_png,dark2_png,dark3_png,red1_png,red2_png,red3_png,yinyue_png,tishi_png,bgm1_mp3,chengjiubeijing_png,cck_png,cjk_png,gcgl2_png,gcgl3_png,jsk_png,sdk_png,yqwdr1_png,yqwdr2_png,yqwdr3_png,gcgl1_png,green-palm-tree-3256255_jpg,qizi_png,yhq1_png,yhq2_png,qipan_png,1_jpeg",
 			"name": "preload"
 		},
 		{
-			"keys": "track_pb_png,thumb_pb_png",
+			"keys": "track_pb_png,thumb_pb_png,tack1_png,tack2_png",
 			"name": "Load"
 		}
 	],
@@ -391,29 +391,44 @@
 			"name": "gcgl1_png"
 		},
 		{
-			"name": "green-palm-tree-3256255_jpg",
+			"url": "assets/green-palm-tree-3256255.jpg",
 			"type": "image",
-			"url": "assets/green-palm-tree-3256255.jpg"
+			"name": "green-palm-tree-3256255_jpg"
 		},
 		{
-			"name": "qizi_png",
+			"url": "assets/xiaoyouxi2/qizi.png",
 			"type": "image",
-			"url": "assets/xiaoyouxi2/qizi.png"
+			"name": "qizi_png"
 		},
 		{
-			"name": "yhq1_png",
+			"url": "assets/chengjiu/yhq1.png",
 			"type": "image",
-			"url": "assets/chengjiu/yhq1.png"
+			"name": "yhq1_png"
 		},
 		{
-			"name": "yhq2_png",
+			"url": "assets/chengjiu/yhq2.png",
 			"type": "image",
-			"url": "assets/chengjiu/yhq2.png"
+			"name": "yhq2_png"
 		},
 		{
-			"name": "qipan_png",
+			"url": "assets/qipan.png",
 			"type": "image",
-			"url": "assets/qipan.png"
+			"name": "qipan_png"
+		},
+		{
+			"url": "assets/ProgressBar/tack1.png",
+			"type": "image",
+			"name": "tack1_png"
+		},
+		{
+			"url": "assets/ProgressBar/tack2.png",
+			"type": "image",
+			"name": "tack2_png"
+		},
+		{
+			"name": "1_jpeg",
+			"type": "image",
+			"url": "assets/1.jpeg"
 		}
 	]
 }
